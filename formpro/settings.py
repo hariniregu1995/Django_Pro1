@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-*@a3^hgeoo9gu)oo2j3kxbmhphq@6jgpkka&9upuy0)-#24$!d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['16.171.147.4']
 
 
 # Application definition
@@ -82,14 +82,13 @@ WSGI_APPLICATION = 'formpro.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'coursemgmt',       # database name
-        'USER': 'root',             # your MySQL username
-        'PASSWORD': 'Hari@123', # your MySQL password
+        'NAME': 'djangodb',       # database name
+        'USER': 'django_user',             # your MySQL username
+        'PASSWORD': 'pass123', # your MySQL password
         'HOST': 'localhost',
         'PORT': '3306',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
