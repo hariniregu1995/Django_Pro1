@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'formpro.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_db',       # database name
-        'USER': 'django_user',             # your MySQL username
-        'PASSWORD': 'pass123', # your MySQL password
+        'NAME': 'django_db1',       # database name
+        'USER': 'root',             # your MySQL username
+        'PASSWORD': 'Hari@123', # your MySQL password
         'HOST': 'localhost',
         'PORT': '3306',
     }
